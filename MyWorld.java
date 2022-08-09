@@ -21,8 +21,6 @@ public class MyWorld extends World
     }
     
     public void prepare(){
-        Konek konek = new Konek();
-        //showText("Nilai Dari Database = "+konek.sampleMethod(), 120, 30);
         Bee bee = new Bee();
         addObject(bee, 300, 200);
     }

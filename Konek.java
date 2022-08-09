@@ -9,12 +9,11 @@ import java.sql.*;
 public class Konek  
 {
     // instance variables - replace the example below with your own
-    private static int x;
 
     /**
      * Constructor for objects of class Konek
      */
-    public static String a = "";
+    public  static String a = "";
     public Konek()
     {
         String driver = "com.mysql.cj.jdbc.Driver";
